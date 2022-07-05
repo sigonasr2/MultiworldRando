@@ -1,0 +1,1677 @@
+
+// .---------------------'
+// | Area 0 : Southern Woodland
+// '---------------------.
+
+// Starting Forest
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": " | ( & ) |  | ",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": " &  & ",
+}
+
+{
+
+"prereq": "
+ & (
+    ( & ( | ) & )
+    | ( &  & )
+)",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "
+    ( | )
+    & (
+        
+        | ( & )
+        |  |  |  |  | 
+    )
+",
+}
+
+{
+
+"prereq": "
+ & (
+    ( & ( | ) & )
+    | ( & )
+)",
+}
+
+{
+
+"prereq": "
+ &  &  &
+    (
+    | ( & ( | ))
+    |  |  |  | )
+",
+}
+
+{
+
+"prereq": "
+    ( & ( | ))
+    // jump into hole to reset duck, then hammer roll bonk duck
+    | ( &  & ( | ( & )))
+",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "( & ( | ) & ) | ( & )",
+}
+
+{
+
+"prereq": " &  &  & ",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "
+(
+    
+    | 
+    | ( & )
+    | 
+    | 
+    | 
+) & ( | )",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+
+
+// Forest Night
+
+{
+
+"prereq": "
+ & (
+    ( & ( | ( & )))
+    | ()
+    | ( & (
+        
+        | ( & ( | ))
+    ))
+    | ( &  & (
+        
+        | 
+    ))
+    | ( & (
+        // slide bonk
+        ( &  & )
+        // 4 tile zip. amulet cancel needed for wall jump. consumables don't work.
+        | ( & ( | ( & )))
+        // get bee into hole, airjump into hole and whirlbonk bee
+        | ( & )
+    ))
+)
+",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "IMPOSSIBLE", // dummy edge for template constraint
+}
+
+{
+
+"prereq": " & ( | ( & ))",
+}
+
+
+{
+
+"prereq": " &  & ",
+}
+
+{
+
+"prereq": " & ( | )",
+}
+
+{
+
+"prereq": "
+ &  & (
+    
+    | ( & (
+        
+        | ( & )
+        | ( & )
+        | 
+        | )
+    )
+    | 
+    | 
+    | ( & ( | ))
+    | ( & )
+)",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": " & ",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": " & ",
+}
+
+{
+
+"prereq": "",
+}
+
+
+// Cave
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": " &  & ",
+}
+
+{
+
+"prereq": "",
+}
+
+
+// Spectral
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "
+    
+    | 
+    | 
+    | ( & ( | ))
+    | ( & )
+",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "
+    ( & ( |  | ))
+    | ( & )
+    | 
+    | 
+",
+}
+
+{
+
+"prereq": "
+// standing on the edge of the ledge to avoid the prologue trigger is 
+( | ) & (
+     |  |  | 
+    | ( &  & )
+    | 
+)
+"
+}
+
+{
+
+"prereq": ""
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": " | ",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": " | ",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "
+ & (
+    ( & (
+        
+        | ( & )
+        | ( & )
+        | 
+    ))
+    | ( & ) // buffered wall launch
+    | ( &  &  & )
+    | ( &  & )
+    | ( &  & )
+)",
+}
+
+{
+
+"prereq": " & (
+     & (
+         // launch off a 1 tile wall
+        | ( & ) // slide jump into quickdrop airdash
+    )
+    | ( & ) // quickdrop airdash or launch off the lower wall
+    | 
+    | 
+)",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "
+    
+    | 
+    | ( & )
+    | ( & ) // slide bonk off bunny and wallkick up the hole
+",
+}
+
+{
+
+"prereq": "",
+}
+
+// .---------------------'
+// | Area 1 : Western Coast
+// '---------------------.
+
+// Beach and Pyramid
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": " | ",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": " &
+    ( |  |  | ( & ))
+",
+}
+
+{
+
+"prereq": " | ",
+}
+
+{
+
+"prereq": " | ",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": " |  |  | ",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "
+( & (
+    
+    | 
+    | 
+)) | ( &  & )
+",
+}
+
+{
+
+"prereq": "
+    
+    | 
+    | ( & )
+    | 
+",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "
+     & (
+        
+        | ( & ( | ))
+        | 
+    )
+",
+}
+
+{
+
+"prereq": "
+     &
+    ( | )
+",
+}
+
+{
+
+"prereq": " & ",
+}
+
+{
+
+"prereq": "( & ) |  | ",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": " | ",
+}
+
+
+// Graveyard and Sky Island
+
+{
+
+"prereq": "
+(
+// First jump
+    
+    | ( & ( | ( & )))
+    | 
+    | ( & ( | ))
+    // slide bonk
+    | ( & )
+    // damage 
+    | 
+) & (
+// Second jump
+    
+    | 
+    | ( & )
+    | 
+    | 
+    // never ever slide bonk
+    | ( & ( | ))
+)
+",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": " &  & ( | )",
+}
+
+{
+
+"prereq": " | ( &  & ( | ))",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "
+    ( & )
+    | ( & (( & ) |  |  | ))
+    | ( & ( | ))
+",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+// 
+
+{
+
+"prereq": "
+     & 
+    & (
+        
+        | ( & )
+        | ( & (
+            
+            | 
+            | 
+            | 
+            | 
+            ) )
+    )
+",
+}
+
+// important nonsense - no  necessary
+{
+
+"prereq": " &  &  &  &  &  &  & ",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "
+     & 
+    // Divided by room
+    & ( | ( & ))
+    & (
+        
+        | ( & )
+        | ( & ( | ))
+        | ( & )
+        | 
+    ) & 
+",
+}
+
+{
+
+"prereq": "
+     & 
+    & (
+        
+        | 
+        | ( & ( | ))
+    ) & (
+        
+        | ( & )
+        | ( & ( | ))
+        | ( & )
+        | 
+    )
+",
+}
+
+{
+
+"prereq": "
+    
+    & (
+        ( & )
+        | ( &  & )
+        | ( &  & )
+        | ( &  & )
+        | ( & ( | ))
+    )
+",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": " & ",
+}
+
+{
+
+"prereq": " &  & ( | ( & ))",
+}
+
+//This edge does not provide a particularly useful path
+//{
+//
+//"prereq": "( & ) &  &  &  & ",
+//}
+
+{
+
+"prereq": "( &  & ) | ( &  & )",
+}
+
+{
+
+"prereq": " & ",
+}
+
+{
+
+"prereq": "
+    ( &  & )
+    | ( & )
+    | ( & ( | ( &  & )))
+",
+}
+
+{
+
+"prereq": " | ( & )",
+}
+
+{
+
+"prereq": "
+    ( | ( &  & )) &
+    (
+        
+        | 
+        | ( & ( | ))
+        | ( & )
+    ) & ( | )
+",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": " & ",
+}
+
+{
+
+"prereq": "
+// RIBBON &
+    
+    | 
+    | 
+    | 
+    | 
+    | ( & )
+    | 
+",
+}
+
+{
+
+"prereq": "",
+}
+
+// .---------------------'
+// | Area 2 : Island Core
+// '---------------------.
+
+
+// Ravine
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": " & ",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "( | ) & (
+        // going up the long chasm
+         & ( | ( & ))
+    )", 
+}
+
+{
+
+"prereq": "", // semisolid
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "
+// Jumping up the chasm
+( &  &  & ( | ))
+| ( &  &  & ( | ( & )))
+",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": " & ",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "
+// From save room up to ledge below egg
+(
+    ( &  & (( & ) | ))
+    | ( & ( | ))
+    | ( &  & )
+)
+// From ledge below egg to flower ledge
+& ( |  |  |  | )
+// Jumping up hole above chocolate arena
+& (
+    (( | ) & ( | ))
+    | ( & )
+    | ( &  & )
+    | 
+)
+",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "
+    ( & (( & ) |  | ))
+    | 
+    | ( &  &  &  & )
+    | ( &  &  &  & ( | ))
+",
+}
+
+
+// Park and Sky Bridge
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+// consumables do not work due to screen transition
+"prereq": " &  & ",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "
+ & (
+    
+    | ( &  & )
+    | ( & (
+        ( & )
+        | ( & )
+    ))
+)
+",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "IMPOSSIBLE",
+}
+
+{
+
+"prereq": " | ",
+}
+
+{
+
+"prereq": " | ",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "
+        
+        | 
+        | (( | ( & )) & (
+            
+            | 
+            | ( & ( & ))
+            | ( &  & )
+        ))
+",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "
+ & (
+    (( | ) & (
+        
+        | 
+        | ( | ( & ))
+    ))
+    | ( & )
+)
+",
+}
+
+{
+
+"prereq": " & ",
+}
+
+{
+
+"prereq": " & ",
+}
+
+{
+
+"prereq": "
+        
+        | 
+        | 
+        | 
+        | ( & ( & ))
+        | ( &  & )
+",
+}
+
+{
+
+// technically goes through SKY_BRIDGE_MAIN, but not really important
+"prereq": " | ",
+}
+
+{
+
+"prereq": "",
+}
+
+// .---------------------'
+// | Area 3 : Northern Tundra
+// '---------------------.
+
+// Snowland, Palace and Icy Summit
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": " & ",
+}
+
+{
+
+"prereq": " & ( | )",
+}
+
+{
+
+"prereq": "
+    ( & )
+    | ( & )
+    | ( &  &  &  & )
+    | ( & ( | ))
+",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "
+    
+    | ( & (
+        (( | ( & )) & )
+        | ()
+        | ( & ( | )) // damage  + maybe slide bonk
+    ))"
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "
+    
+    | ( & ( | ))
+    | (( | ) & )
+    // can probably be done with lower level items, haven't done it successfully yet.
+    | ( &  & )
+    | ( & )
+    ",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "
+    
+    | ( & ( | ))
+    | ( &  & )
+    | ()
+",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": " |  | ",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+
+// Aquarium
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "FIRE_ORB",
+}
+
+{
+
+"prereq": "FIRE_ORB",
+}
+
+{
+
+"prereq": "
+     &  &
+    (
+        ( &  & ) // you need to disable speed 
+        | ( &  & )
+        | ( & )
+        | ( & )
+        | ( &  &  & )
+        | ( & )
+    )
+",
+}
+
+{
+
+"prereq": "
+     &  & (
+        
+        | ( &  & )
+        | ( & (
+            
+            | 
+            // airdash to opposite wall and wallkick off it
+            | ( & )
+            // aj, rwj, qd, amulet, wk
+            | 
+            // wimpy, bounce
+            | 
+        ))
+    )
+",
+}
+
+{
+
+"prereq": " | ( & )",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "IMPOSSIBLE",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": " & (( & ) | ( & ))",
+}
+
+// .---------------------'
+// | Area 4 : Eastern Highlands
+// '---------------------.
+
+
+// Riverbank
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": " | ",
+}
+
+{
+
+"prereq": " | ( & ) |  |  | ( & )",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": " & ( | )",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+
+{
+
+"prereq": " & ",
+}
+
+{
+
+"prereq": " |  | ( &  & )",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": " & ",
+}
+
+{
+
+"prereq": "
+    
+    | 
+    | ( & ( | ))
+    | 
+    | ( & ) // damage  off spider bullets
+",
+}
+
+{
+
+"prereq": "
+    
+    | 
+    | 
+    | 
+    | ( &  & )
+",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": " & ",
+}
+
+
+// Evernight
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
+
+"prereq": "",
+}
+
+{
