@@ -1,14 +1,15 @@
 package sig;
 
-import java.util.List;
-
 public class Node{
     Node north;
-    List<Restriction> northR;
+    long northR;
     Node east;
-    List<Restriction> eastR;
+    long eastR;
     Node west;
-    List<Restriction> westR;
+    long westR;
     Node south;
-    List<Restriction> southR;
+    long southR;
+    public Node(Node n,long nr,Node e,long er,Node s,long sr,Node w,long wr) {
+        north=n;northR=nr;east=e;eastR=er;south=s;southR=sr;west=w;westR=wr;
+    };
 }

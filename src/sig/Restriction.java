@@ -2,6 +2,7 @@ package sig;
 
 public class Restriction {
     private static int i=0;
+    final static long NULL = 0;
     final static long INTERMEDIATE_HARD = DefineBitwiseConstant();
     final static long INTERMEDIATE = DefineBitwiseConstant();
     final static long SPEED1 = DefineBitwiseConstant();
