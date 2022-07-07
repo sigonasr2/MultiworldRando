@@ -1,7 +1,6 @@
 package sig;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
 
 public class MultiRando {
 	private static int bitwiseCounter=0;
@@ -58,19 +57,22 @@ public class MultiRando {
 	final static Long SPEED3 = DefineBitwiseConstant();
 	final static Long PIKO_HAMMER_LEVELED = DefineBitwiseConstant();
 	final static Long BACKTRACK_3 = DefineBitwiseConstant();
+	final static Long ONE_WAY = DefineBitwiseConstant(); //This constant will never be available to the player, so setting this will effectively make a node only one-way, since whatever this is used on will be inaccessible.
+
+	static Node[] SW = new Node[22];
+	static Node[] WC = new Node[23];
+	static Node[] IC = new Node[20];
+	static Node[] NT = new Node[23];
+	static Node[] EH = new Node[25];
+	static Node[] RRT = new Node[1];
+	static Node[] P = new Node[1];
+	static Node[] SA = new Node[2];
+	static Node[] SI = new Node[1];
+
 
 	private static long DefineBitwiseConstant() {/*System.out.println("Restrictions reach a bit-wise value of "+Long.toBinaryString((long)Math.pow(2,i)));*/return (long)Math.pow(2,bitwiseCounter++);}
 
 	private static void createNodes() {
-		Node[] SW = new Node[22];
-		Node[] WC = new Node[23];
-		Node[] IC = new Node[20];
-		Node[] NT = new Node[23];
-		Node[] EH = new Node[25];
-		Node[] RRT = new Node[1];
-		Node[] P = new Node[1];
-		Node[] SA = new Node[2];
-		Node[] SI = new Node[1];
 		InitializeNodes(SW,WC,IC,NT,EH,RRT,P,SA,SI);
 		SW[0].add(SW[1],NULL);
 		SW[0].add(SW[7],NULL);
@@ -83,17 +85,97 @@ public class MultiRando {
 				DARKNESS|EXPLOSIVES|SLIDING_POWDER|PROLOGUE_TRIGGER,
 				DARKNESS|EXPLOSIVES|HAMMER_ROLL_ZIP|PROLOGUE_TRIGGER,
 				DARKNESS|ADVANCED_VERYHARD|EXPLOSIVES_ENEMY|SLIDE_ZIP});
+		SW[2].add(SW[6],
+			new Long[]{EXPLOSIVES_ENEMY},
+			new Long[]{
+				EXPLOSIVES_ENEMY|ADVANCED_VERYHARD,
+				EXPLOSIVES_ENEMY|INTERMEDIATE_HARD|AMULET_FOOD,
+				EXPLOSIVES_ENEMY|WHIRL_BONK,
+				EXPLOSIVES_ENEMY|RABI_SLIPPERS,
+				EXPLOSIVES_ENEMY|BUNNY_STRIKE,
+				EXPLOSIVES_ENEMY|AIR_JUMP,
+				EXPLOSIVES_ENEMY|AIR_DASH,
+				SLIDE_ZIP|ADVANCED_VERYHARD,
+				SLIDE_ZIP|INTERMEDIATE_HARD|AMULET_FOOD,
+				SLIDE_ZIP|WHIRL_BONK,
+				SLIDE_ZIP|RABI_SLIPPERS,
+				SLIDE_ZIP|BUNNY_STRIKE,
+				SLIDE_ZIP|AIR_JUMP,
+				SLIDE_ZIP|AIR_DASH,
+			}
+		);
+		SW[5].add(SW[6],
+			new Long[]{
+				DARKNESS|EXPLOSIVES|SLIDING_POWDER|PROLOGUE_TRIGGER,
+				DARKNESS|EXPLOSIVES|HAMMER_ROLL_ZIP|PROLOGUE_TRIGGER,
+				ADVANCED_VERYHARD|SLIDE_ZIP
+			},
+			new Long[]{
+				EXPLOSIVES_ENEMY|SLIDING_POWDER|PROLOGUE_TRIGGER|ADVANCED_VERYHARD,
+				EXPLOSIVES_ENEMY|SLIDING_POWDER|PROLOGUE_TRIGGER|INTERMEDIATE_HARD|AMULET_FOOD,
+				EXPLOSIVES_ENEMY|SLIDING_POWDER|PROLOGUE_TRIGGER|INTERMEDIATE_HARD|RABI_SLIPPERS,
+				EXPLOSIVES_ENEMY|SLIDING_POWDER|PROLOGUE_TRIGGER|WHIRL_BONK,
+				EXPLOSIVES_ENEMY|SLIDING_POWDER|PROLOGUE_TRIGGER|BUNNY_STRIKE,
+				EXPLOSIVES_ENEMY|SLIDING_POWDER|PROLOGUE_TRIGGER|AIR_JUMP,
+				EXPLOSIVES_ENEMY|SLIDING_POWDER|PROLOGUE_TRIGGER|AIR_DASH,
+			}
+		);
+		SW[1].add(SW[6],
+			new Long[]{
+				WALL_JUMP_LV2|AIR_JUMP,
+				WALL_JUMP_LV2|WHIRL_BONK_CANCEL,
+				ADVANCED_VERYHARD|HAMMER_ROLL|AIR_JUMP,
+				ADVANCED_VERYHARD|HAMMER_ROLL|WALL_JUMP_LV2|AIR_DASH
+			},
+			NULL
+		);
+		SW[8].add(SW[5],
+			new Long[]{
+				EXPLOSIVES_ENEMY|SLIDING_POWDER|PROLOGUE_TRIGGER,
+				EXPLOSIVES_ENEMY|HAMMER_ROLL_ZIP|PROLOGUE_TRIGGER,
+				ADVANCED_VERYHARD|SLIDE_ZIP
+			},
+			new Long[]{
+				DARKNESS|EXPLOSIVES|SLIDING_POWDER|PROLOGUE_TRIGGER
+			}
+		);
+		SW[8].add(SW[0],
+			new Long[]{NULL},
+			new Long[]{
+				RABI_SLIPPERS|SLIDING_POWDER,
+				RABI_SLIPPERS|HAMMER_ROLL_ZIP,
+				AIR_JUMP|SLIDING_POWDER,
+				AIR_JUMP|HAMMER_ROLL_ZIP,
+				ADVANCED_STUPID|SLIDING_POWDER,
+				BUNNY_STRIKE|SLIDING_POWDER,
+				BUNNY_STRIKE|HAMMER_ROLL_ZIP,
+				AIR_DASH|SLIDING_POWDER,
+				AIR_DASH|HAMMER_ROLL_ZIP,
+				WHIRL_BONK|SLIDING_POWDER,
+				WHIRL_BONK|HAMMER_ROLL_ZIP,
+			}
+		);
+		SW[1].add(SW[3],PROLOGUE_TRIGGER);
+		SW[0].add(SW[4],
+			new Long[]{SLIDE_ZIP},
+			new Long[]{ONE_WAY}
+		);
+		SW[1].add(SW[4],
+			new Long[]{DOWNDRILL_SEMISOLID_CLIP},
+			NULL
+		);
 	}
 	private static void InitializeNodes(Node[]...sF) {
 		for (int i=0;i<sF.length;i++) {
 			for (int j=0;j<sF[i].length;j++) {
-				sF[i][j]=new Node();
+				sF[i][j]=new Node(j);
 			}
 		}
 	}
 
 	public static void main(String[] args) {
 		createNodes();
+		System.out.println(Arrays.toString(SW));
 	}
 	
 }
