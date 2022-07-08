@@ -56,6 +56,9 @@ public class Node{
                         sb.append(Restrictions.values()[j]);
                     }
                 }
+                if (f) {
+                    sb.append(Restrictions.NULL);
+                }
             }
             sb.append(")");
         }
