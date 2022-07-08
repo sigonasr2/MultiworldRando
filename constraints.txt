@@ -335,13 +335,13 @@ ITM & (
 }
 
 {
-"edge": "FOREST_NIGHT_WEST -> FOREST_START",
-"prereq": "IMPOSSIBLE", // dummy edge for template constraint
+"edge": "FOREST_NIGHT_ATK_UP_ROOM -> FOREST_NIGHT_WEST",
+"prereq": "DARKNESS & (CARROT_SHOOTER | (CARROT_BOMB & BACKTRACK_1))",
 }
 
 {
-"edge": "FOREST_NIGHT_ATK_UP_ROOM -> FOREST_NIGHT_WEST",
-"prereq": "DARKNESS & (CARROT_SHOOTER | (CARROT_BOMB & BACKTRACK_1))",
+"edge": "FOREST_NIGHT_WEST -> FOREST_START",
+"prereq": "IMPOSSIBLE", // dummy edge for template constraint
 }
 
 
